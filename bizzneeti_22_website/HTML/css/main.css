@@ -736,8 +736,8 @@ select.error {
 
 .block-sponsor img {
     opacity: .4;
+    height: 50%;
     width: auto;
-    height: 50px;
 }
 .block-sponsor img:hover {
     opacity: .7;
