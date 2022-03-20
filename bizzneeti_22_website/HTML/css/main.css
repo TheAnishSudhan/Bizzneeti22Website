@@ -454,6 +454,10 @@ ul.block-topic li {
 
 /* Schedule section*/
 
+.why_list{
+  padding-left: 50;
+}
+
 .block-tabs,
 .block-tab {
     border: 1px solid #444444;
