@@ -5,7 +5,7 @@
 
     $(window).on("load", function() {
 
-        // Site loader 
+        // Site loader
 
         $(".loader-inner").fadeOut();
         $(".loader").delay(200).fadeOut("slow");
@@ -97,7 +97,7 @@
 
 
 
-    // Tabbed content 
+    // Tabbed content
 
     $(".block-tabs li").on("click", function() {
         if (!$(this).hasClass("active")) {
@@ -128,7 +128,7 @@
 
 
 
-    // Images zoom 
+    // Images zoom
 
     $('.venobox').venobox({
         titleattr: 'data-title',
@@ -149,7 +149,7 @@
     instaFeed.run();
 
 
-    // Form validation 
+    // Form validation
 
     var resgistryForm = $('.registry-form');
     resgistryForm.validate({
@@ -183,7 +183,7 @@
 })(jQuery);
 
 
-// Map setup 
+// Map setup
 
 function initializeMap() {
 
