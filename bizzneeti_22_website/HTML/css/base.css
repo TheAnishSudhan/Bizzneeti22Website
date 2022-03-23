@@ -299,8 +299,8 @@ section,
     z-index: 100;
 }
 .front-modal {
-    position: relative;
-    z-index: 999;
+    position: absolute;
+    z-index: 99999;
 }
 .uppercase {
     text-transform: uppercase;

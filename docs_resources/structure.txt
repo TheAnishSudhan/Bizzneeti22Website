@@ -13,8 +13,8 @@ Contact and further info
 
 
 hero overlay
-overlay
-inner-hero fade-out
+overlay keep 3 
+inner-hero NOO fade-out
 hero-content
 Slider
 main-Slider
