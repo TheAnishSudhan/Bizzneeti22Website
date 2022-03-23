@@ -298,6 +298,10 @@ section,
     position: relative;
     z-index: 100;
 }
+.front-modal {
+    position: relative;
+    z-index: 999;
+}
 .uppercase {
     text-transform: uppercase;
 }
@@ -452,16 +456,16 @@ span a:after,
 p a:after {
     background: rgb(57, 155, 255);
     /* Old browsers */
-    
+
     background: -moz-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
     /* FF3.6-15 */
-    
+
     background: -webkit-linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    
+
     background: linear-gradient(45deg, rgba(57, 155, 255, 1) 0%, rgba(238, 113, 249, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#399bff', endColorstr='#ee71f9', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
 }
