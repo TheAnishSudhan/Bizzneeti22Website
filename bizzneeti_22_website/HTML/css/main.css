@@ -1406,6 +1406,11 @@ select.error {
 }
 /*End media queries*/
 
+.description
+{
+  font-size: 13px;
+}
+
 /* Modal - TnC - start*/
 /* The Modal (background) */
 .modal {
