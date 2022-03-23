@@ -1405,3 +1405,7 @@ select.error {
     }
 }
 /*End media queries*/
+.description
+{
+  font-size: 13px;
+}
