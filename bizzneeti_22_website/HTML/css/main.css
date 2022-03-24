@@ -1503,3 +1503,30 @@ select.error {
 li:not(:last-child) {
   margin-bottom: 5px;
 }
+
+body {
+background: aliceblue;
+}
+.section-padding{
+padding:60px 0;
+}
+.brand-carousel {
+background: aliceblue;
+margin-top: 15%;
+}
+.owl-dots {
+text-align: center;
+margin-top: 4%;
+}
+.owl-dot {
+display: inline-block;
+height: 15px !important;
+width: 15px !important;
+background-color: #878787 !important;
+opacity: 0.8;
+border-radius: 50%;
+margin: 0 5px;
+}
+.owl-dot.active {
+background-color: #000 !important;
+}
