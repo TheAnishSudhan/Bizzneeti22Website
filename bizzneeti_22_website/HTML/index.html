@@ -520,7 +520,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 700px;
+  max-width: 300px;
   position: relative;
   margin: auto;
 }
@@ -547,13 +547,13 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 5px;
+  width: 5px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 10s ease;
 }
 
 .active {
@@ -563,7 +563,7 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 5.5s;
+  animation-duration: 10.5s;
 }
 
 @keyframes fade {
@@ -579,50 +579,69 @@ img {vertical-align: middle;}
 
 <div class="slideshow-container">
   <div class="text-center" style="height:300px;">
+    <div class="mySlides fade">
+      <img src="img/logo/noescape.png" style="width:10;padding-top:5px;">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/logo/s_m.png" style="width:10;padding-top:5px;">
+    </div>
 <div class="mySlides fade">
-  <img src="img/logo/NoticeBard.png" style="width:60%;padding-top:40px;">
+  <img src="img/logo/blur.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/eyewear.jpg" style="width:60%;padding-top:40px;">
+  <img src="img/logo/boat.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/Makeuppartner.jpg" style="width:60%;padding-top:40px;">
+  <img src="img/logo/lg.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/Whitelogo.png" style="width:60%">
+  <img src="img/logo/d2c.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/overseaspartner.jpg" style="width:40%">
+  <img src="img/logo/brew.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/poweredby.png" style="width:50%;padding-top:40px;">
+  <img src="img/logo/jurni.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/eatmynews-Mediapartner.jpg" style="width:50%;padding-top:40px;">
+  <img src="img/logo/startup.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/blue_on_white_logo_horizontal(1).png" style="width:50%;padding-top:40px;">
+  <img src="img/logo/bounce.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/wolfofstartuplogo.jpg" style="width:40%">
+  <img src="img/logo/siuk.png" style="width:10;padding-top:5px;">
 </div>
-
 <div class="mySlides fade">
-  <img src="img/logo/Rankhawn_logo_small.jpeg" style="width:60%;padding-top:40px;">
+  <img src="img/logo/corn.png" style="width:10;padding-top:5px;">
+</div>
+<div class="mySlides fade">
+  <img src="img/logo/topone.png" style="width:10;padding-top:5px;">
+</div>
+<div class="mySlides fade">
+  <img src="img/logo/sheep.png" style="width:10;padding-top:5px;">
+</div>
+<div class="mySlides fade">
+  <img src="img/logo/wagtail(2).png" style="width:10;padding-top:5px;">
+</div>
+<div class="mySlides fade">
+  <img src="img/logo/valencia.png" style="width:10;padding-top:5px;">
+</div>
+<div class="mySlides fade">
+  <img src="img/logo/0degree.png" style="width:10;padding-top:5px;">
 </div>
 </div>
 <br>
 <br>
 
 <div style="text-align:center;">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
   <span class="dot"></span>
   <span class="dot"></span>
   <span class="dot"></span>
@@ -653,7 +672,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 </script>
 
