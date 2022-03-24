@@ -11,4 +11,12 @@ Schedule
 sponsors/partners -> logos will redirect to company webpage
 Contact and further info
 
+
+hero overlay
+overlay keep 3 
+inner-hero NOO fade-out
+hero-content
+Slider
+main-Slider
+
 https://drive.google.com/drive/folders/1t5-T_AkDMWXSRyFJ1xMlzaI4zfvsePle
